@@ -1,1 +1,6 @@
-/*# sourceMappingURL=style.css.map */
+body input::-moz-placeholder {
+  color: #ffffff !important;
+}
+body input::placeholder {
+  color: #ffffff !important;
+}/*# sourceMappingURL=style.css.map */
