@@ -51,8 +51,8 @@
   --bs-info-text-emphasis: #055160;
   --bs-warning-text-emphasis: #664d03;
   --bs-danger-text-emphasis: #58151c;
-  --bs-light-text-emphasis: #606060; /* text color */
-  --bs-dark-text-emphasis: #495057;
+  --bs-light-text-emphasis: #495057;
+  --bs-dark-text-emphasis: #606060; /* text color */
   --bs-primary-bg-subtle: #cfe2ff;
   --bs-secondary-bg-subtle: #e2e3e5;
   --bs-success-bg-subtle: #d1e7dd;

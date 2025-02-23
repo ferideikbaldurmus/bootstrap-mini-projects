@@ -1,6 +1,9 @@
 body input::-moz-placeholder {
-  color: #ffffff !important;
+  color: var(--bs-dark-text-emphasis) !important;
 }
 body input::placeholder {
-  color: #ffffff !important;
+  color: var(--bs-dark-text-emphasis) !important;
+}
+body input.form-control:focus {
+  color: var(--bs-dark-text-emphasis) !important;
 }/*# sourceMappingURL=style.css.map */
