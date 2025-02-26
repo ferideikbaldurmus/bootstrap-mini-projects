@@ -4,6 +4,15 @@ body{
         background-color: var(--bs-gray);
         .nav-menu-shop-nft{
             color: var(--bs-yellow);
+            .nav-badge{
+                background-color: var(--bs-yellow);
+                color: var(--bs-black);
+                font-size: 10px;
+              
+            }
+            p{
+                background-color: var(--bs-gray-dark);
+            }
         }
     }
 }
