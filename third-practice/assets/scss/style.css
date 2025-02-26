@@ -1,1 +1,9 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: var(--bs-gray-dark);
+}
+body .nav-menu {
+  background-color: var(--bs-gray);
+}
+body .nav-menu .nav-menu-shop-nft {
+  color: var(--bs-yellow);
+}/*# sourceMappingURL=style.css.map */
