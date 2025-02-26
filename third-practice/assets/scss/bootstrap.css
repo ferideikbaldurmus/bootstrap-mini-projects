@@ -18,8 +18,8 @@
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
-  --bs-gray: #202020; /*kartların grisi*/
-  --bs-gray-dark: #171717; /*koyu gri*/
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -33,7 +33,7 @@
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
-  --bs-warning: #F6CE0E;  /* title text color */
+  --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
@@ -52,7 +52,7 @@
   --bs-warning-text-emphasis: #664d03;
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
-  --bs-dark-text-emphasis: #606060; /* text color */
+  --bs-dark-text-emphasis: #495057;
   --bs-primary-bg-subtle: #cfe2ff;
   --bs-secondary-bg-subtle: #e2e3e5;
   --bs-success-bg-subtle: #d1e7dd;
