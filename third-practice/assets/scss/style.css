@@ -7,11 +7,10 @@ body .nav-menu {
 body .nav-menu .nav-menu-shop-nft {
   color: var(--bs-yellow);
 }
-body .nav-menu .nav-menu-shop-nft .nav-badge {
-  background-color: var(--bs-yellow);
-  color: var(--bs-black);
-  font-size: 10px;
-}
 body .nav-menu .nav-menu-shop-nft p {
   background-color: var(--bs-gray-dark);
+  font-size: 12px;
+}
+body .nav-menu .nav-menu-shop-nft p .nft-bagde {
+  font-size: 4px;
 }/*# sourceMappingURL=style.css.map */
