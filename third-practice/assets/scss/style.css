@@ -10,4 +10,13 @@ body .nav-menu .nav-menu-shop-nft {
 body .nav-menu .nav-menu-shop-nft p {
   background-color: var(--bs-gray-dark);
   font-size: 12px;
+}
+body .nav-menu .nav-dropdown-menu .dropdown-menu {
+  background-color: var(--bs-gray-900);
+}
+body .nav-menu .nav-profile-name .fa-circle {
+  color: var(--bs-success);
+}
+body .nav-menu .nav-profile-name p {
+  color: var(--bs-white);
 }/*# sourceMappingURL=style.css.map */

@@ -1,18 +1,37 @@
-body{
+body {
     background-color: var(--bs-gray-dark);
-    .nav-menu{
+
+    .nav-menu {
         background-color: var(--bs-gray);
-        .nav-menu-shop-nft{
+
+        .nav-menu-shop-nft {
             color: var(--bs-yellow);
-            p{
+
+            p {
                 background-color: var(--bs-gray-dark);
                 font-size: 12px;
                 // .nft-bagde{
                 //     font-size: 4px;
-                   
+
                 // }
             }
         }
-  
+
+        .nav-dropdown-menu {
+            .dropdown-menu {
+                background-color: var(--bs-gray-900);
+            }
+        }
+        .nav-profile-name{
+            .fa-circle{
+                color: var(--bs-success);
+            }
+            p{
+                color: var(--bs-white);
+
+            }
+       
+        }
     }
+
 }
