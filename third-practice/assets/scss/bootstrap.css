@@ -16,7 +16,7 @@
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
-  --bs-black: #000;
+  --bs-black: #202020; /* cards background-color */
   --bs-white: #fff;
   --bs-gray: #262626; /* nav-menu background-color */
   --bs-gray-dark: #171717; /* body background-color */
@@ -25,7 +25,7 @@
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
   --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
+  --bs-gray-600: #606060; /* cards h6 text color */
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212121; /* dropdown-background-color */
