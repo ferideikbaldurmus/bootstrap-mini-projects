@@ -62,6 +62,9 @@ body {
     }
     .popular-items-cards{
         background-color: var(--bs-black);
+        img{
+            height: 120px;
+        }
         
      }
 }
