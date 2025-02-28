@@ -55,4 +55,11 @@ body .bottom-cards {
 }
 body .bottom-cards h6 {
   color: var(--bs-white);
+}
+body footer {
+  background-color: var(--bs-black);
+}
+body footer .footer-p {
+  color: var(--bs-white);
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */

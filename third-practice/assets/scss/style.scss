@@ -79,4 +79,11 @@ body {
            
             }
      }
+     footer{
+        background-color: var(--bs-black);
+        .footer-p{
+            color: var(--bs-white);
+            font-size: 12px;
+        }
+     }
 }
