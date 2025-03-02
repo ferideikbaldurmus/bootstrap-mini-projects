@@ -1,10 +1,12 @@
 body {
     background-color: var(--bs-gray-dark);
+
     .nav-menu {
         background-color: var(--bs-gray);
 
         .nav-menu-shop-nft {
             color: var(--bs-yellow);
+
             p {
                 background-color: var(--bs-gray-dark);
                 font-size: 12px;
@@ -13,11 +15,13 @@ body {
                 // }
             }
         }
+
         .nav-dropdown-menu {
             .dropdown-menu {
                 background-color: var(--bs-gray-900);
             }
         }
+
         .nav-profile-name {
             .fa-circle {
                 color: var(--bs-success);
@@ -30,51 +34,63 @@ body {
 
         }
     }
+
     .main-cards-section {
         h6 {
             color: var(--bs-white);
         }
     }
-    .cards{
+
+    .cards {
         background-color: var(--bs-black);
-        h1{
+
+        h1 {
             color: var(--bs-white);
         }
-        h5{
+
+        h5 {
             color: var(--bs-gray-600);
         }
-        h6{
+
+        h6 {
             color: var(--bs-gray-600);
         }
-        p{
+
+        p {
             color: var(--bs-white);
             font-size: 12px;
             font-family: 'Inter', sans-serif;
             font-weight: 100;
-           
+
         }
     }
-    .popular-items-cards{
+
+    .popular-items-cards {
         background-color: var(--bs-black);
-        img{
+
+        img {
             height: 120px;
         }
-     }
-     .popular-items-cards-bottom{
+    }
+
+    .popular-items-cards-bottom {
         background-color: var(--bs-black);
-     }
-     .bottom-cards{
+    }
+
+    .bottom-cards {
+        color: var(--bs-white);
+
+        h6 {
             color: var(--bs-white);
-           
-                h6{
-                    color: var(--bs-white);  
-            }
-     }
-     footer{
+        }
+    }
+
+    footer {
         background-color: var(--bs-black);
-        .footer-p{
+
+        .footer-p {
             color: var(--bs-white);
             font-size: 12px;
         }
-     }
+    }
 }
