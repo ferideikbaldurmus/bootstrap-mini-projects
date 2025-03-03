@@ -40,17 +40,22 @@ body {
             color: var(--bs-white);
         }
     }
+
     .cards {
         background-color: var(--bs-black);
+
         h1 {
             color: var(--bs-white);
         }
+
         h5 {
             color: var(--bs-gray-600);
         }
+
         h6 {
             color: var(--bs-gray-600);
         }
+
         p {
             color: var(--bs-white);
             font-size: 12px;
@@ -59,6 +64,7 @@ body {
 
         }
     }
+
     .popular-items-cards {
         background-color: var(--bs-black);
 
@@ -66,9 +72,11 @@ body {
             height: 120px;
         }
     }
+
     .popular-items-cards-bottom {
         background-color: var(--bs-black);
     }
+
     .bottom-cards {
         color: var(--bs-white);
 
@@ -76,6 +84,7 @@ body {
             color: var(--bs-white);
         }
     }
+
     footer {
         background-color: var(--bs-black);
 
