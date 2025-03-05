@@ -1,1 +1,20 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+body nav form {
+  background-color: #42474A;
+  border-radius: 10px;
+  /* inputun yazı rengini değiştiremedim? */
+}
+body nav form i {
+  color: #D4D7DC;
+}
+body nav .nav-admin {
+  background-color: #C4C4C4;
+  width: 41px;
+  height: 41px;
+}
+body nav .nav-admin p {
+  font-size: 24px;
+}
+body nav .nav-admin .nav-admin-name {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

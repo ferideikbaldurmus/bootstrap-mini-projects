@@ -1,0 +1,23 @@
+body{
+    nav{
+        form{
+            background-color: #42474A;
+            border-radius: 10px;
+            i{
+                color: #D4D7DC;
+            }
+            /* inputun yazı rengini değiştiremedim? */
+        }
+        .nav-admin{
+            background-color:#C4C4C4; 
+            width: 41px;
+            height: 41px;
+          p{
+            font-size: 24px;
+          }
+          .nav-admin-name{
+            font-size: 20px
+          }
+        }
+    }
+}
