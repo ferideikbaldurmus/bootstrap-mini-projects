@@ -7,16 +7,24 @@ body{
                 color: #D4D7DC;
             }
             /* inputun yazı rengini değiştiremedim? */
+          
         }
         .nav-admin{
             background-color:#C4C4C4; 
             width: 41px;
             height: 41px;
+         p{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         }
           p{
             font-size: 24px;
+            color: #ffffff;
           }
           .nav-admin-name{
-            font-size: 20px
+            font-size: 20px;
+           color: #C4C4C4;
           }
         }
     }

@@ -13,8 +13,15 @@ body nav .nav-admin {
   height: 41px;
 }
 body nav .nav-admin p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body nav .nav-admin p {
   font-size: 24px;
+  color: #ffffff;
 }
 body nav .nav-admin .nav-admin-name {
   font-size: 20px;
+  color: #C4C4C4;
 }/*# sourceMappingURL=style.css.map */
