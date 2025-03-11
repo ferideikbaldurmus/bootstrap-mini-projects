@@ -1,4 +1,8 @@
 body {
+    background: linear-gradient(#31363A, #13171A);
+    height: 100vh;
+    margin: 0;
+
     nav {
         form {
             background-color: #42474A;
@@ -7,8 +11,9 @@ body {
             i {
                 color: #D4D7DC;
             }
+
             .form-control::placeholder {
-                color: #7D7D7D; 
+                color: #7D7D7D;
             }
         }
 
@@ -46,8 +51,59 @@ body {
                 }
 
             }
+
             .nav-profile-name {
                 color: #c4c4c4;
+            }
+        }
+    }
+
+    .order-list {
+        h4 {
+            color: white;
+
+        }
+
+        .color-cards-container {
+            .color-cards:nth-child(1) {
+                background: linear-gradient(to right, #FFA113, #F4350A);
+                width: 97px;
+                height: 45px;
+
+                .color-cards-text {
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .color-cards:nth-child(2) {
+                background: linear-gradient(to right, #5A5752, #89807E);
+                width: 97px;
+                height: 45px;
+
+                .color-cards-text {
+                    color: #9C9292;
+                    font-size: 14px;
+                }
+            }
+            .color-cards:nth-child(3) {
+                background: linear-gradient(to right, #FFA113, #F4350A);
+                width: 97px;
+                height: 45px;
+
+                .color-cards-text {
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .color-cards:nth-child(4) {
+                background: linear-gradient(to right, #FFA113, #F4350A);
+                width: 97px;
+                height: 45px;
+
+                .color-cards-text {
+                    color: white;
+                    font-size: 14px;
+                }
             }
         }
     }
