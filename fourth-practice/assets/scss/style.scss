@@ -1,31 +1,51 @@
-body{
-    nav{
-        form{
+body {
+    nav {
+        form {
             background-color: #42474A;
             border-radius: 10px;
-            i{
+
+            i {
                 color: #D4D7DC;
             }
+
             /* inputun yazı rengini değiştiremedim? */
-          
+
         }
-        .nav-admin{
-            background-color:#C4C4C4; 
-            width: 41px;
-            height: 41px;
-         p{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-         }
-          p{
-            font-size: 24px;
-            color: #ffffff;
-          }
-          .nav-admin-name{
-            font-size: 20px;
-           color: #C4C4C4;
-          }
+
+        // .nav-admin{
+        //     background-color:#C4C4C4; 
+        //     width: 41px;
+        //     height: 41px;
+        //  p{
+        //   display: flex;
+        //   align-items: center;
+        //   justify-content: center;
+        //  }
+        //   p{
+        //     font-size: 24px;
+        //     color: #ffffff;
+        //   }
+        //   .nav-admin-name{
+        //     font-size: 20px;
+        //    color: #C4C4C4;
+        //   }
+        // }
+        .nav-admin {
+            .nav-profile {
+                color: #c4c4c4;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+
+                .icon-text {
+                    position: absolute;
+                    color: white;
+                }
+
+            }
         }
     }
 }

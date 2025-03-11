@@ -7,21 +7,16 @@ body nav form {
 body nav form i {
   color: #D4D7DC;
 }
-body nav .nav-admin {
-  background-color: #C4C4C4;
-  width: 41px;
-  height: 41px;
-}
-body nav .nav-admin p {
+body nav .nav-admin .nav-profile {
+  color: #c4c4c4;
+  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
-body nav .nav-admin p {
-  font-size: 24px;
-  color: #ffffff;
-}
-body nav .nav-admin .nav-admin-name {
-  font-size: 20px;
-  color: #C4C4C4;
+body nav .nav-admin .nav-profile .icon-text {
+  position: absolute;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
