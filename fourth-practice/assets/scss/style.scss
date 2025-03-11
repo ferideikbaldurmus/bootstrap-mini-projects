@@ -7,9 +7,9 @@ body {
             i {
                 color: #D4D7DC;
             }
-
-            /* inputun yazı rengini değiştiremedim? */
-
+            .form-control::placeholder {
+                color: #7D7D7D; 
+            }
         }
 
         // .nav-admin{
@@ -45,6 +45,9 @@ body {
                     color: white;
                 }
 
+            }
+            .nav-profile-name {
+                color: #c4c4c4;
             }
         }
     }

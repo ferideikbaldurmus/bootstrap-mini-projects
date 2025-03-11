@@ -1,11 +1,15 @@
-@charset "UTF-8";
 body nav form {
   background-color: #42474A;
   border-radius: 10px;
-  /* inputun yazı rengini değiştiremedim? */
 }
 body nav form i {
   color: #D4D7DC;
+}
+body nav form .form-control::-moz-placeholder {
+  color: #7D7D7D;
+}
+body nav form .form-control::placeholder {
+  color: #7D7D7D;
 }
 body nav .nav-admin .nav-profile {
   color: #c4c4c4;
@@ -19,4 +23,7 @@ body nav .nav-admin .nav-profile {
 body nav .nav-admin .nav-profile .icon-text {
   position: absolute;
   color: white;
+}
+body nav .nav-admin .nav-profile-name {
+  color: #c4c4c4;
 }/*# sourceMappingURL=style.css.map */
