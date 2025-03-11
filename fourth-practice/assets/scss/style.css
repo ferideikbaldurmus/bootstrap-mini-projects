@@ -70,4 +70,40 @@ body .order-list .color-cards-container .color-cards:nth-child(4) {
 body .order-list .color-cards-container .color-cards:nth-child(4) .color-cards-text {
   color: white;
   font-size: 14px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(5) {
+  background: linear-gradient(to right, #5A5752, #89807E);
+  width: 97px;
+  height: 45px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(5) .color-cards-text {
+  color: #9C9292;
+  font-size: 14px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(6) {
+  background: linear-gradient(to right, #5A5752, #89807E);
+  width: 97px;
+  height: 45px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(6) .color-cards-text {
+  color: #9C9292;
+  font-size: 14px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(7) {
+  background: linear-gradient(#D2DF3D, #959D3E);
+  width: 97px;
+  height: 45px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(7) .color-cards-text {
+  color: white;
+  font-size: 14px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(8) {
+  background: linear-gradient(#DFA83D, #8D7840);
+  width: 97px;
+  height: 45px;
+}
+body .order-list .color-cards-container .color-cards:nth-child(8) .color-cards-text {
+  color: white;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
