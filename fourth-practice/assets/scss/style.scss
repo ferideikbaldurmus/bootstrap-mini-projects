@@ -75,6 +75,7 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(2) {
                 background: linear-gradient(to right, #5A5752, #89807E);
                 width: 97px;
@@ -85,6 +86,7 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(3) {
                 background: linear-gradient(to right, #FFA113, #F4350A);
                 width: 97px;
@@ -95,6 +97,7 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(4) {
                 background: linear-gradient(to right, #FFA113, #F4350A);
                 width: 97px;
@@ -105,6 +108,7 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(5) {
                 background: linear-gradient(to right, #5A5752, #89807E);
                 width: 97px;
@@ -115,6 +119,7 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(6) {
                 background: linear-gradient(to right, #5A5752, #89807E);
                 width: 97px;
@@ -125,6 +130,7 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(7) {
                 background: linear-gradient(#D2DF3D, #959D3E);
                 width: 97px;
@@ -135,13 +141,50 @@ body {
                     font-size: 14px;
                 }
             }
+
             .color-cards:nth-child(8) {
                 background: linear-gradient(#DFA83D, #8D7840);
                 width: 97px;
                 height: 45px;
+
                 .color-cards-text {
                     color: white;
                     font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .menu-cards-container {
+        .menu-cards {
+            width: 220px;
+            height: 300px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+            background: linear-gradient(#212429, #6C7076, );
+
+            .menu-cards-top-part {
+                .top-text {
+                    font-size: 16px;
+                    color: white;
+                }
+
+                .bottom-text {
+                    font-size: 12px;
+                    color: #888888;
+                }
+            }
+            .cards-profile{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                color: #BE2828;
+                .icon-text{
+                    position: absolute;
+                    color: white;
+                  
                 }
             }
         }

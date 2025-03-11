@@ -106,4 +106,31 @@ body .order-list .color-cards-container .color-cards:nth-child(8) {
 body .order-list .color-cards-container .color-cards:nth-child(8) .color-cards-text {
   color: white;
   font-size: 14px;
+}
+body .menu-cards-container .menu-cards {
+  width: 220px;
+  height: 300px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(#212429, #6C7076);
+}
+body .menu-cards-container .menu-cards .menu-cards-top-part .top-text {
+  font-size: 16px;
+  color: white;
+}
+body .menu-cards-container .menu-cards .menu-cards-top-part .bottom-text {
+  font-size: 12px;
+  color: #888888;
+}
+body .menu-cards-container .menu-cards .cards-profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: #BE2828;
+}
+body .menu-cards-container .menu-cards .cards-profile .icon-text {
+  position: absolute;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
