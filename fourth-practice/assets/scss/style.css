@@ -2,6 +2,8 @@ body {
   background: linear-gradient(#31363A, #13171A);
   height: 100vh;
   margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
 }
 body nav form {
   background-color: #42474A;
@@ -108,8 +110,8 @@ body .order-list .color-cards-container .color-cards:nth-child(8) .color-cards-t
   font-size: 14px;
 }
 body .menu-cards-container .menu-cards {
-  width: 220px;
-  height: 300px;
+  width: 270px;
+  height: 337px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   background: linear-gradient(#212429, #6C7076);
 }
@@ -133,4 +135,57 @@ body .menu-cards-container .menu-cards .cards-profile {
 body .menu-cards-container .menu-cards .cards-profile .icon-text {
   position: absolute;
   color: white;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .list-left figure,
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .list-left img {
+  width: 82px;
+  height: 82px;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .menu-list-texts h6 {
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .menu-list-texts p {
+  font-size: 12px;
+  color: #888888;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .menu-list-texts .list-text-bottom p {
+  color: white;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-text p {
+  color: #888888;
+  font-size: 12px;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-text p:last-child {
+  color: white;
+  font-size: 12px;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-box {
+  background: linear-gradient(to right, #FFA113, #F4350A);
+  width: 45px;
+  height: 45px;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-box:last-child {
+  background: linear-gradient(to right, #5A5752, #89807E);
+  width: 45px;
+  height: 45px;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-button {
+  width: 143px;
+  height: 45px;
+  background: linear-gradient(to right, #5A5752, #89807E);
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-button p {
+  color: #9C9292;
+  font-size: 15px;
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-button-second {
+  width: 143px;
+  height: 45px;
+  background: linear-gradient(to right, #FFA113, #F4350A);
+}
+body .menu-cards-container .menu-cards .menu-list-section .menu-list .cards-footer .footer-button-second p {
+  color: white;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */

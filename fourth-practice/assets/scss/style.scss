@@ -2,7 +2,8 @@ body {
     background: linear-gradient(#31363A, #13171A);
     height: 100vh;
     margin: 0;
-
+    background-size: cover;
+    background-attachment: fixed;
     nav {
         form {
             background-color: #42474A;
@@ -16,25 +17,6 @@ body {
                 color: #7D7D7D;
             }
         }
-
-        // .nav-admin{
-        //     background-color:#C4C4C4; 
-        //     width: 41px;
-        //     height: 41px;
-        //  p{
-        //   display: flex;
-        //   align-items: center;
-        //   justify-content: center;
-        //  }
-        //   p{
-        //     font-size: 24px;
-        //     color: #ffffff;
-        //   }
-        //   .nav-admin-name{
-        //     font-size: 20px;
-        //    color: #C4C4C4;
-        //   }
-        // }
         .nav-admin {
             .nav-profile {
                 color: #c4c4c4;
@@ -157,8 +139,8 @@ body {
 
     .menu-cards-container {
         .menu-cards {
-            width: 220px;
-            height: 300px;
+            width: 270px;
+            height: 337px;
             box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
             background: linear-gradient(#212429, #6C7076, );
 
@@ -173,7 +155,8 @@ body {
                     color: #888888;
                 }
             }
-            .cards-profile{
+
+            .cards-profile {
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -181,12 +164,91 @@ body {
                 width: 40px;
                 height: 40px;
                 color: #BE2828;
-                .icon-text{
+
+                .icon-text {
                     position: absolute;
                     color: white;
-                  
+
+                }
+            }
+            .menu-list-section {
+                .menu-list {
+                    .list-left {
+
+                        figure,
+                        img {
+                            width: 82px;
+                            height: 82px;
+                        }
+                    }
+
+                    .menu-list-texts {
+                        h6 {
+                            color: white;
+                            font-size: 15px;
+                            font-family: 'Roboto', sans-serif;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: #888888;
+                        }
+
+                        .list-text-bottom {
+                            p {
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .cards-footer {
+                        .footer-text {
+                            p {
+                                color: #888888;
+                                font-size: 12px;
+                            }
+
+                            p:last-child {
+                                color: white;
+                                font-size: 12px;
+                            }
+                        }
+
+                        .footer-box {
+                            background: linear-gradient(to right, #FFA113, #F4350A);
+                            width: 45px;
+                            height: 45px;
+
+                        }
+
+                        .footer-box:last-child {
+                            background: linear-gradient(to right, #5A5752, #89807E);
+                            width: 45px;
+                            height: 45px;
+                        }
+                        .footer-button{
+                            width: 143px;
+                            height: 45px;
+                            background: linear-gradient(to right,  #5A5752, #89807E);
+                            p{
+                                color: #9C9292;
+                                font-size: 15px;
+                            }
+                        }
+                        .footer-button-second{
+                            width: 143px;
+                            height: 45px;
+                            background: linear-gradient(to right,  #FFA113, #F4350A);
+                            p{
+                                color: white;
+                                font-size: 15px;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
+    
+
 }
